@@ -1,36 +1,55 @@
 {
-  "name": "template-daisyui-web-movil",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "daisyui": "^5.5.14",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "tailwindcss": "^4.1.18"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.46.4",
-    "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.2.5"
-  }
+   "name": "template-daisyui-web-movil",
+   "private": true,
+   "version": "0.0.0.0",
+   "description": "Sistema WebApp - tsc -b && npm run bump &&  ",
+   "type": "module",
+   "scripts": {
+      "dev": "vite",
+      "bump": "node bump-version.ts",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+   },
+   "dependencies": {
+      "@tailwindcss/vite": "^4.1.18",
+      "await-to-js": "^3.0.0",
+      "axios": "^1.13.4",
+      "daisyui": "^5.5.14",
+      "dayjs": "^1.11.19",
+      "formik": "^2.4.9",
+      "framer-motion": "^12.33.0",
+      "notistack": "^3.0.2",
+      "react": "^19.2.0",
+      "react-device-detect": "^2.2.3",
+      "react-dom": "^19.2.0",
+      "react-icons": "^5.5.0",
+      "react-router-dom": "^7.13.0",
+      "react-select": "^5.10.2",
+      "sweetalert2": "^11.26.18",
+      "sweetalert2-react-content": "^5.1.1",
+      "tailwind-merge": "^3.4.0",
+      "tailwindcss": "^4.1.18",
+      "tailwindcss-animate": "^1.0.7",
+      "vite-plugin-pwa": "^1.2.0",
+      "yup": "^1.7.1",
+      "zustand": "^5.0.11"
+   },
+   "devDependencies": {
+      "@eslint/js": "^9.39.1",
+      "@types/node": "^24.10.1",
+      "@types/react": "^19.2.5",
+      "@types/react-dom": "^19.2.3",
+      "@vitejs/plugin-react": "^5.1.1",
+      "eslint": "^9.39.1",
+      "eslint-plugin-react-hooks": "^7.0.1",
+      "eslint-plugin-react-refresh": "^0.4.24",
+      "globals": "^16.5.0",
+      "typescript": "~5.9.3",
+      "typescript-eslint": "^8.46.4",
+      "vite": "npm:rolldown-vite@7.2.5"
+   },
+   "overrides": {
+      "vite": "npm:rolldown-vite@7.2.5"
+   }
 }
